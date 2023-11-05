@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature Converter - Convert temperature value as per specified mode</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div class="box-1">
+                <h1>Temparature Converter</h1>
+                <div class="input-field">
+                    <label for="">Enter Temperature</label>
+                    <div id="ip-1">
+                        <input type="text" id="input-temp" name="temp" value="0">
+                        <select id="type-from">
+                            <option value="Celcius">Celcius</option>
+                            <option value="Ferenheit">Ferenheit</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                    <label for="">Convert To</label>
+                    <div id="ip-2">
+                        <select id="type-to">
+                            <option value="Celcius">Celcius</option>
+                            <option value="Ferenheit">Ferenheit</option>
+                            <option value="Kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="btn">Convert</button>
+            </div>
+            <div class="box-2">
+                <div class="output-field" id="output-temp">
+                    0 unit
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
